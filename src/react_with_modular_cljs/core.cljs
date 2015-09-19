@@ -17,7 +17,7 @@
       (println "test-component re-rendered!")
       [:div {:style {:color "red"}}
         [:p "Test: " @counter]
-        [increment-button counter "Click me!!"]])))
+        [increment-button counter "Click me!"]])))
 
 (enable-console-print!)
 

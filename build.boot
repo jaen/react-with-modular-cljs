@@ -4,7 +4,7 @@
   :exclusions '[org.clojure/clojurescript com.google.javascript/closure-compiler]
   :dependencies '[[org.clojars.jaen/clojurescript "0.0-SNAPSHOT"]
                   [org.clojars.jaen/reagent "0.5.2-SNAPSHOT"]
-                  [org.clojars.jaen/boot-cljs "0.0-SNAPSHOT"]
+		  [adzerk/boot-cljs "1.7.48-4"]
                   [adzerk/boot-cljs-repl "0.1.10-SNAPSHOT" :scope "test"]
 
                   [binaryage/devtools "0.3.0"]
